@@ -1,0 +1,171 @@
+@font-face {
+  font-family:"FiraSans";
+  src: url("../fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family:"FiraSansBold";
+  src: url("../fonts/FiraSans-Bold.ttf");
+}
+
+@font-face {
+  font-family:"FiraSansMedium";
+  src: url("../fonts/FiraSans-Medium.ttf");
+}
+
+
+body{
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.header_image{
+  background-image: url("../img/SKF-Logomobile.png");
+  display: block;
+  overflow: hidden;
+  width: 320px;
+  height: 87px;
+}
+
+a:hover{
+  color: grey;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: grey;
+  width: 320px;
+  height: 30px;
+  border: solid grey;
+}
+
+.nav_links{
+  padding: inherit;
+  background-color: blue;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 4px;
+  margin-top: 3px;
+  line-height: 25px;
+  font-family:"FiraSansBold";
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.grid_left{
+  display:flex;
+  flex-direction: column;
+  width: 320px;
+  height: 650px;
+  background-color: white;
+  border: solid grey;
+  font-size: 0.75em;
+}
+
+.grid_right{
+  display:flex;
+  flex-direction: column;
+  width: 320px;
+  font-size: 0.75em;
+}
+
+h1{
+  font-family:"FiraSansBold";
+  font-size: 2em;
+}
+
+h2{
+  font-family:"FiraSansMedium";
+  font-size: 0.9em;
+}
+
+p{
+  font-family:"FiraSans";
+}
+
+.article_left{
+display: flex;
+flex-direction: column;
+}
+
+
+.mini_article_right{
+  display: flex;
+  background-color: white;
+  border: solid grey;
+  margin: 5px;
+}
+
+.mini_article_left{
+  display: flex;
+  background-color: white;
+  border: solid grey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mini_article_rightlow{
+  display: flex;
+  background-color: white;
+  border: solid grey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mini_article_leftlow{
+  display: flex;
+  background-color: white;
+  border: solid grey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mini_article_right_product{
+  display: flex;
+  background-image: url("../img/products2mobile.jpg");
+  height: 330px;
+  width: 320px;
+  border: solid grey;
+  margin-top: 10px;
+}
+
+.mini_article_left_product{
+  display: flex;
+  background-image: url("../img/products1mobile.jpg");
+  height: 330px;
+  width: 320px;
+  border: solid grey;
+  margin-top: 10px;
+}
+.mini_article_rightlow_product{
+  display: flex;
+  background-image: url("../img/products4mobile.jpg");
+  height: 330px;
+  width: 320px;
+  border: solid grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mini_article_leftlow_product{
+  display: flex;
+  background-image: url("../img/products3mobile.jpg");
+  background-repeat: no-repeat;
+  height: 330px;
+  width: 320px;
+  border: solid grey;
+  margin-top: 10px;
+}
+
+.aboutus_image{
+  display: flex;
+  border: solid grey;
+  background-image: url("../img/aboutusmobile.jpg");
+  height: 300px;
+  width: 320px;
+  margin-top: 10px;
+}

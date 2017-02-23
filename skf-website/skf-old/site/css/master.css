@@ -1,0 +1,210 @@
+@font-face {
+  font-family:"FiraSans";
+  src: url("../fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family:"FiraSansBold";
+  src: url("../fonts/FiraSans-Bold.ttf");
+}
+
+@font-face {
+  font-family:"FiraSansMedium";
+  src: url("../fonts/FiraSans-Medium.ttf");
+}
+
+a:hover{
+  color: grey;
+}
+
+.header_image{
+  background-image: url("../img/SKF-Logo.png");
+  display: block;
+  overflow: hidden;
+  width: 800px;
+  height: 217px;
+}
+
+body{
+  background-image: url("../img/engine.png");
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+
+.slideshow_container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border: solid grey;
+  width: 1400px;
+  height: 450px;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: grey;
+  width: 1400px;
+  height: 50px;
+  border: solid grey;
+}
+
+.nav_links{
+  padding: inherit;
+  background-color: blue;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-bottom: 4px;
+  margin-top: 3px;
+  line-height: 45px;
+  font-family:"FiraSansBold";
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 75px;
+}
+
+
+.grid_left{
+  display:flex;
+  flex-direction: column;
+  width: 668px;
+  height: 650px;
+  background-color: white;
+  margin-right: 32.5px;
+    border: solid grey;
+}
+
+.grid_right{
+  display:flex;
+  flex-direction: column;
+  width: 670px;
+  height: 650px;
+  margin-left: 32.5px;
+}
+
+h1{
+  font-family:"FiraSansBold";
+  font-size: 2em;
+}
+
+h2{
+  font-family:"FiraSansMedium";
+  font-size: 0.9em;
+}
+
+p{
+  font-family:"FiraSans";
+}
+
+.article_left{
+display: flex;
+margin: 10px;
+flex-direction: column;
+}
+
+.multibox{
+  display: flex;
+  flex-direction: row;
+}
+
+.mini_article_right{
+  display: flex;
+  background-color: white;
+  margin-left: 16.25px;
+  margin-bottom: 16.25px;
+  border: solid grey;
+}
+
+.mini_article_left{
+  display: flex;
+  background-color: white;
+  margin-right: 16.25px;
+  margin-bottom: 16.25px;
+  border: solid grey;
+}
+.mini_article_rightlow{
+  display: flex;
+  background-color: white;
+  margin-left: 16.25px;
+  margin-top: 16.25px;
+  border: solid grey;
+}
+
+.mini_article_leftlow{
+  display: flex;
+  background-color: white;
+  margin-right: 16.25px;
+  margin-top: 16.25px;
+  border: solid grey;
+}
+
+.mini_article_right_product{
+  display: flex;
+  background-image: url("../img/products2.jpg");
+  height: 315px;
+  width: 330px;
+  margin-left: 16.25px;
+  margin-bottom: 16.25px;
+  border: solid grey;
+}
+
+.mini_article_left_product{
+  display: flex;
+  background-image: url("../img/products1.jpg");
+  height: 315px;
+  width: 330px;
+  margin-right: 16.25px;
+  margin-bottom: 16.25px;
+  border: solid grey;
+}
+.mini_article_rightlow_product{
+  display: flex;
+  background-image: url("../img/products4.jpg");
+  height: 315px;
+  width: 330px;
+  margin-left: 16.25px;
+  margin-top: 16.25px;
+  border: solid grey;
+}
+
+.mini_article_leftlow_product{
+  display: flex;
+  background-image: url("../img/products3.jpg");
+  background-repeat: no-repeat;
+  height: 315px;
+  width: 330px;
+  margin-right: 16.25px;
+  margin-top: 16.25px;
+  border: solid grey;
+}
+
+.slide{
+  background-image: url("../img/slidepicture.jpg");
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+  width: 1400px;
+  height: 450px;
+}
+
+.aboutus_image{
+  display: flex;
+  border: solid grey;
+  display: flex;
+  border: solid grey;
+  background-image: url("../img/aboutus.jpg");
+  height: 670px;
+  width: 650px;
+}
